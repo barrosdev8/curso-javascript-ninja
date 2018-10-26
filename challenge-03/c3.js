@@ -1,6 +1,3 @@
-# Desafio da semana #3
-
-```js
 // Declarar uma variável qualquer, que receba um objeto vazio.
 var any = {};
 console.log(typeof(any));
@@ -260,5 +257,3 @@ pessoa.apresentacao = () => {
 // Agora, apresente-se ;)
 
 console.log(pessoa.apresentacao());
-?
-```
