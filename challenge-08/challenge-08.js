@@ -113,4 +113,4 @@ console.log('A subtração de 30 - 90 é igual a ' + subtraction(30, 90));
 
 console.log('A multiplicação de 50 * 20 é igual a ' + multiplication(50, 20));
 
-console.log('A divisão de 170 / 10 é igual a ' + division(170, 10) )
+console.log('A divisão de 170 / 10 é igual a ' + division(170, 10));
