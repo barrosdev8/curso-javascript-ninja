@@ -27,7 +27,7 @@ Crie uma função literal chamada `showName`. Essa função deve retornar o
 seu nome.
 */
 function showName(){
-  return showName.name;
+  return 'Lucas Barros';//Fit 3 - Alteração no return;
 }
 
 /*
@@ -40,7 +40,7 @@ Usando a variável criada acima, mostre no console o nome e o retorno da funçã
 atribuída a ela, com a seguinte frase:
 "A função [NOME DA FUNÇÃO] retorna [RETORNO DA FUNÇÃO]."
 */
-console.log('A função ' + varShowName.name + ' retorna ' + varShowName + '.');
+console.log('A função ' + varShowName.name + ' retorna ' + varShowName() + '.');
 
 /*
 Crie uma função literal chamada `calculator`, que funcione assim:
@@ -76,6 +76,9 @@ function calculator(parameter){
         return x / y;
         break;
 
+      case '%':
+        return x % y;
+
       default:
         return 'Operação inválida';
 
@@ -104,7 +107,7 @@ correto por parâmetro para cada uma delas.
 var subtraction = calculator('-');
 var multiplication = calculator('*');
 var division = calculator('/');
-
+var mod = calculator('%');
 /*
 Faça uma operação com cada uma das funções criadas acima, mostrando o resultado
 no console.
@@ -114,3 +117,5 @@ console.log('A subtração de 30 - 90 é igual a ' + subtraction(30, 90));
 console.log('A multiplicação de 50 * 20 é igual a ' + multiplication(50, 20));
 
 console.log('A divisão de 170 / 10 é igual a ' + division(170, 10));
+
+console.log('O módulo de 40 e 10 é ' + mod(40, 10));
