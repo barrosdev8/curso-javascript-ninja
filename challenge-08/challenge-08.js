@@ -33,7 +33,7 @@ function showName(){
 /*
 Declare uma variável chamada `varShowName` que recebe a função criada acima.
 */
-var varShowName = showName();
+var varShowName = showName; //atribuindo e invocando showName irá retornar undefined;
 
 /*
 Usando a variável criada acima, mostre no console o nome e o retorno da função
