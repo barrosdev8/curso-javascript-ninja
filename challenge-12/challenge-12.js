@@ -35,6 +35,7 @@ Não use nenhuma estrutura de repetição, nem crie o array manualmente.
 */
 
 console.log(Array(person));
+//console.log(Object.keys(person)); Correção
 
 
 /*
@@ -100,9 +101,12 @@ no formato abaixo:
     "[PROPRIEDADE]: [VALOR]"
 */
 
-for (i = 0; i < 2; i++){
+for (i = 0; i < 2; i++){ //books.length
     console.log('name : ' + books[i].name);
     console.log('pages : ' + books[i].pages);
+    /*for(prop in books[i]){
+        console.log(prop + ': ' + books[i].prop);
+    }*/
 }
 
 /*
